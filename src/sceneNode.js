@@ -29,7 +29,6 @@ class SceneNode {
          */
 
 
-        // Combine with the passed-in matrices
         var transformedMvp = MatrixMult(mvp, this.trs.getTransformationMatrix());
         var transformedModelView = MatrixMult(modelView, this.trs.getTransformationMatrix());
         var transformedNormals = MatrixMult(normalMatrix, this.trs.getTransformationMatrix());

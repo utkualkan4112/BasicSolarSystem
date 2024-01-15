@@ -172,7 +172,7 @@ void main()
 	// Calculate the diffuse and specular lighting below.
 
 	// Calculate the diffuse lighting
-	vec3 lightColor = vec3(1.0, 1.0, 1.0); // Assuming white light
+	vec3 lightColor = vec3(1.0, 1.0, 1.0); // white light
 	diff = max(dot(normal, lightdir), 0.0);
 
 	// Calculate the specular lighting
